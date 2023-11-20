@@ -1,0 +1,17 @@
+{
+  "name": "http-proxy-stripper",
+  "version": "1.0.0",
+  "description": "This repository contains a Node.js application that acts as a lightweight, dynamic web proxy. Its primary function is to modify incoming HTTP requests by stripping specified query parameters, such as Urchin Tracking Module (UTM) parameters, before they reach their intended server.",
+  "main": "proxy-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
